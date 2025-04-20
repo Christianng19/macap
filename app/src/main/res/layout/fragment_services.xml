@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:background="@drawable/tab_button_test"
             android:textAllCaps="false"
-            android:text="Próximos"
+            android:text="@string/services_btn1"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 
@@ -54,7 +54,7 @@
             android:layout_weight="1"
             android:background="@drawable/tab_button_test"
             android:textAllCaps="false"
-            android:text="Terminados"
+            android:text="@string/services_btn2"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
 

@@ -27,7 +27,7 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:src="@drawable/img_test"
-            android:contentDescription="Imagen de perfil"
+            android:contentDescription="@string/imagen_de_perfil"
             android:layout_marginEnd="16dp"
             android:background="@drawable/profile_background"
              android:padding="-1dp"
@@ -46,7 +46,7 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nombre de Usuario"
+                android:text="@string/set_nameuser"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="@android:color/black" />
@@ -55,8 +55,8 @@
                 android:id="@+id/btn_ver_perfil"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ver perfil"
-                android:layout_marginLeft="-15dp"
+                android:text="@string/set_viewperfil"
+                android:layout_marginStart="-15dp"
                 android:textAllCaps="false"
                 android:textColor="@android:color/holo_red_dark"
                 android:textSize="12sp"
@@ -83,7 +83,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="AJUSTES DE CUENTA"
+        android:text="@string/set_title_aj1"
         android:layout_marginTop="16dp"
         android:textAlignment="textStart"
         android:textSize="18sp"
@@ -125,7 +125,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Datos personales"
+                android:text="@string/set_cont1"
                 android:textSize="16sp"
                 android:textColor="@android:color/black" />
         </LinearLayout>
@@ -152,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Pagos y devoluciones"
+                android:text="@string/set_cont2"
                 android:textSize="16sp"
                 android:textColor="@android:color/black" />
         </LinearLayout>
@@ -178,7 +178,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Cambiar contraseña"
+                android:text="@string/set_cont3"
                 android:textSize="16sp"
                 android:textColor="@android:color/black" />
         </LinearLayout>
@@ -201,7 +201,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="¿QUIERES OFRECER SERVICIOS?"
+        android:text="@string/set_title_of2"
         android:textAlignment="textStart"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -230,7 +230,8 @@
             android:background="?attr/selectableItemBackground"
             android:gravity="center_vertical"
             android:clickable="true"
-            android:focusable="true">
+            android:focusable="true"
+            tools:ignore="UselessParent">
 
             <ImageView
                 android:layout_width="24dp"
@@ -241,7 +242,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Cambiar a versión profesional"
+                android:text="@string/set_cont4"
                 android:textSize="16sp"
                 android:textColor="@android:color/black" />
         </LinearLayout>
@@ -252,7 +253,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Versión 0.3 (0002)"
+        android:text="@string/general_vers_id"
         android:textSize="12sp"
         android:textColor="@android:color/black"
         app:layout_constraintTop_toBottomOf="@id/extra_options_container"

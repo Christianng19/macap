@@ -3,4 +3,29 @@
     <string name="title_home">Inicio</string>
     <string name="title_dashboard">Servicios</string>
     <string name="title_notifications">Perfil</string>
+
+    <!-- STRINGS AGREGADOS -->
+    <string name="general_vers_id">Versión 0.3 (0002)</string>
+
+    <string name="imagen_de_perfil">Imagen de perfil</string>
+    <string name="set_nameuser">Nombre de Usuario</string>
+    <string name="set_viewperfil">Ver perfil</string>
+    <string name="set_title_aj1">AJUSTES DE CUENTA</string>
+    <string name="set_cont1">Datos personales</string>
+    <string name="set_cont2">Pagos y devoluciones</string>
+    <string name="set_cont3">Cambiar contraseña</string>
+    <string name="set_title_of2">¿QUIERES OFRECER SERVICIOS?</string>
+    <string name="set_cont4">Cambiar a versión profesional</string>
+    <string name="text_icono">Icono</string>
+    <string name="text_logo">Texto del logo</string>
+    <string name="text_buscar">Buscar</string>
+    <string name="home_bloque1_dir">Tu dirección</string>
+    <string name="home_context_dir">Mostrar u ocultar dirección</string>
+    <string name="home_textview_oc">Escribe tu dirección aquí</string>
+    <string name="home_title1_cat">Categorías</string>
+    <string name="home_textviewcat">Ver todas las categorías</string>
+    <string name="services_btn1">Próximos</string>
+    <string name="services_btn2">Terminados</string>
+
+
 </resources>
