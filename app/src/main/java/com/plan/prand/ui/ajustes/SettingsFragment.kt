@@ -1,4 +1,4 @@
-package com.plan.prand.ui.notifications
+package com.plan.prand.ui.ajustes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.plan.prand.databinding.FragmentNotificationsBinding
 
-class NotificationsFragment : Fragment() {
+class SettingsFragment : Fragment() {
 
     private var _binding: FragmentNotificationsBinding? = null
     private val binding get() = _binding!!

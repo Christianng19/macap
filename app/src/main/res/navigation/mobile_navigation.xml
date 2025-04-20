@@ -12,11 +12,11 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.plan.prand.ui.dashboard.DashboardFragment"
+        android:name="com.plan.prand.ui.servicescal.ServicesFragment"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.plan.prand.ui.notifications.NotificationsFragment"
+        android:name="com.plan.prand.ui.ajustes.SettingsFragment"
         tools:layout="@layout/fragment_notifications" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.plan.prand.ui.dashboard
+package com.plan.prand.ui.servicescal
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.plan.prand.databinding.FragmentDashboardBinding
 
-class DashboardFragment : Fragment() {
+class ServicesFragment : Fragment() {
 
     private var _binding: FragmentDashboardBinding? = null
     private val binding get() = _binding!!
@@ -25,7 +25,7 @@ class DashboardFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val dashboardViewModel = ViewModelProvider(this).get(DashboardViewModel::class.java)
+        val servicesdelunused = ViewModelProvider(this).get(servicesdelunused::class.java)
 
         // Mostramos directamente el contenido de "Próximos" al entrar
         selectProximos()
@@ -42,7 +42,7 @@ class DashboardFragment : Fragment() {
             binding.textDashboard.text = "No tienes servicios pasados."
         }
 
-        dashboardViewModel.text.observe(viewLifecycleOwner) {
+        servicesdelunused.text.observe(viewLifecycleOwner) {
             // Este observer puede actualizar el contenido si lo deseas más dinámico
             // Pero si no lo usas, puedes eliminarlo
         }

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.NotificationsFragment"
+    tools:context=".ui.ajustes.SettingsFragment"
     android:padding="16dp">
 
     <!-- Header con imagen de perfil, nombre de usuario y botón para ver perfil -->

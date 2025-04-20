@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.Services"
-    tools:context=".ui.dashboard.DashboardFragment">
+    tools:context=".ui.servicescal.ServicesFragment">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_content"
