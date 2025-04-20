@@ -1,0 +1,49 @@
+# Android Studio / IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+!/.idea/codeStyles  # Opcional: si quieres compartir tu configuración de estilo
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Build
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+/.cxx/
+
+# Gradle Wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration file (sdk path, keystore, etc)
+local.properties
+
+# Signing files
+*.jks
+*.keystore
+
+# ProGuard
+proguard/ (o /proguard-rules.pro si lo tienes en la raíz)
+
+# Android artifacts
+*.apk
+*.ap_
+*.aab
+
+# IntelliJ
+.DS_Store
+*.log
+
+# Crashlytics / Fabric
+fabric.properties
+
+# Otros files de sistema
+*.swp
+*~
